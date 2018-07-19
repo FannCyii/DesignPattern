@@ -13,5 +13,9 @@ print("=================================")
 print("===== Hello, Design Pattern!=====")
 print("=================================")
 //命令模式
-let client = CommandClient()
-client.mainRun()
+//let client = CommandClient()
+//client.mainRun()
+
+//响应者链
+let client2 = ChainResponsibilityClient()
+client2.mainRun()

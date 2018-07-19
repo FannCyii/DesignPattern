@@ -100,6 +100,7 @@ class CommandClient{
         let invoker = Invoker()
         
 /*
+        //通常会吧reciver隐藏
         let coder = ConcreteReceiver1()
         let designer = ConcreteReceiver2()
         let command1 = ConcreteCommand(aReceiver: coder) //开发者改代码
@@ -140,7 +141,7 @@ class CommandClient{
  
  */
 
-
+//组合
 
 
 
