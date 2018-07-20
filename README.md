@@ -1,2 +1,2 @@
 
-##Design Patter In Swift
+Design Pattern In Swift
