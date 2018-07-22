@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		1453115120FF816B00064363 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1453115020FF816B00064363 /* main.swift */; };
 		1453115920FF820800064363 /* CommandPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1453115820FF820800064363 /* CommandPattern.swift */; };
-		1453115C2100DA7100064363 /* ChainOfResponsibilityPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1453115B2100DA7100064363 /* ChainOfResponsibilityPattern.swift */; };
+		1453115F21040B3300064363 /* ChainOfResponsibilityPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1453115E21040B3300064363 /* ChainOfResponsibilityPattern.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,7 +28,7 @@
 		1453114D20FF816A00064363 /* DesignPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		1453115020FF816B00064363 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1453115820FF820800064363 /* CommandPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandPattern.swift; sourceTree = "<group>"; };
-		1453115B2100DA7100064363 /* ChainOfResponsibilityPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChainOfResponsibilityPattern.swift; path = ../../../../../Documents/ChainOfResponsibilityPattern.swift; sourceTree = "<group>"; };
+		1453115E21040B3300064363 /* ChainOfResponsibilityPattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainOfResponsibilityPattern.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 		1453114F20FF816A00064363 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
-				1453115A2100DA5700064363 /* Chain of Responsibility Pattern */,
+				1453115D21040AFE00064363 /* ChainOfResponsibilityPattern */,
 				1453115720FF819C00064363 /* Command Pattern */,
 				1453115020FF816B00064363 /* main.swift */,
 			);
@@ -76,12 +76,12 @@
 			path = "Command Pattern";
 			sourceTree = "<group>";
 		};
-		1453115A2100DA5700064363 /* Chain of Responsibility Pattern */ = {
+		1453115D21040AFE00064363 /* ChainOfResponsibilityPattern */ = {
 			isa = PBXGroup;
 			children = (
-				1453115B2100DA7100064363 /* ChainOfResponsibilityPattern.swift */,
+				1453115E21040B3300064363 /* ChainOfResponsibilityPattern.swift */,
 			);
-			path = "Chain of Responsibility Pattern";
+			path = ChainOfResponsibilityPattern;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1453115C2100DA7100064363 /* ChainOfResponsibilityPattern.swift in Sources */,
+				1453115F21040B3300064363 /* ChainOfResponsibilityPattern.swift in Sources */,
 				1453115120FF816B00064363 /* main.swift in Sources */,
 				1453115920FF820800064363 /* CommandPattern.swift in Sources */,
 			);
