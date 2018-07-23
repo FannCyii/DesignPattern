@@ -10,6 +10,7 @@
 		1453115120FF816B00064363 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1453115020FF816B00064363 /* main.swift */; };
 		1453115920FF820800064363 /* CommandPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1453115820FF820800064363 /* CommandPattern.swift */; };
 		1453115F21040B3300064363 /* ChainOfResponsibilityPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1453115E21040B3300064363 /* ChainOfResponsibilityPattern.swift */; };
+		145311622106256100064363 /* decoratorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145311612106256100064363 /* decoratorPattern.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		1453115020FF816B00064363 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1453115820FF820800064363 /* CommandPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandPattern.swift; sourceTree = "<group>"; };
 		1453115E21040B3300064363 /* ChainOfResponsibilityPattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainOfResponsibilityPattern.swift; sourceTree = "<group>"; };
+		145311612106256100064363 /* decoratorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = decoratorPattern.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		1453114F20FF816A00064363 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				145311602106253300064363 /* DecoratorPattern */,
 				1453115D21040AFE00064363 /* ChainOfResponsibilityPattern */,
 				1453115720FF819C00064363 /* Command Pattern */,
 				1453115020FF816B00064363 /* main.swift */,
@@ -82,6 +85,14 @@
 				1453115E21040B3300064363 /* ChainOfResponsibilityPattern.swift */,
 			);
 			path = ChainOfResponsibilityPattern;
+			sourceTree = "<group>";
+		};
+		145311602106253300064363 /* DecoratorPattern */ = {
+			isa = PBXGroup;
+			children = (
+				145311612106256100064363 /* decoratorPattern.swift */,
+			);
+			path = DecoratorPattern;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +155,7 @@
 			files = (
 				1453115F21040B3300064363 /* ChainOfResponsibilityPattern.swift in Sources */,
 				1453115120FF816B00064363 /* main.swift in Sources */,
+				145311622106256100064363 /* decoratorPattern.swift in Sources */,
 				1453115920FF820800064363 /* CommandPattern.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

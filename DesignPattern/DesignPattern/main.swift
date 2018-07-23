@@ -16,6 +16,10 @@ print("=================================")
 //let client = CommandClient()
 //client.mainRun()
 
-//响应者链
-let client2 = ChainResponsibilityClient()
-client2.mainRun()
+////响应者链
+//let client2 = ChainResponsibilityClient()
+//client2.mainRun()
+
+//装饰者
+let derectorClient = DecoratorClient()
+derectorClient.mainRun()
