@@ -20,6 +20,11 @@ print("=================================")
 //let client2 = ChainResponsibilityClient()
 //client2.mainRun()
 
-//装饰者
-let derectorClient = DecoratorClient()
-derectorClient.mainRun()
+////装饰者
+//let derectorClient = DecoratorClient()
+//derectorClient.mainRun()
+
+
+//策略模式
+let strategyClient = StrategyPatternClient()
+strategyClient.mainRun()
