@@ -69,8 +69,8 @@ class StrategyPatternClient{
         context.operation();
         
         //实现加减法
-        let enum1 = Calculator.add(2, 4).calculate()
-        print("eum1 execute:\(enum1)")
+        let enum1 = Calculator.add(2, 4).exe()
+        print("Calculator add execute:\(enum1)")
     }
 }
 
@@ -113,7 +113,7 @@ class StrategyPatternClient{
 enum Calculator {
     case add(Int,Int)
     case sub(Int,Int)
-    func calculate() -> Int {
+    func exe() -> Int {
         switch self {
         case .add(let a0,let b0):
             return a0+b0

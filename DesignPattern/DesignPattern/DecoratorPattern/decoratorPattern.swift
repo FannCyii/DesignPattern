@@ -9,7 +9,7 @@
 import Foundation
 
 /*
- * 装饰模式
+ * 装饰模式  （包装模式的一种，还有适配模式也是包装模式的一种）
  *  Attach additional responsiblities to an object dynamically keeping the sam interface. Decorators provide a flexible alternative to subclassing for extending functionality.
  *
  * 动态的给一个对象添加一些额外的职责。就增加了功能来说，装饰模式相比生成子类更为灵活。

@@ -24,7 +24,10 @@ print("=================================")
 //let derectorClient = DecoratorClient()
 //derectorClient.mainRun()
 
+////策略模式
+//let strategyClient = StrategyPatternClient()
+//strategyClient.mainRun()
 
-//策略模式
-let strategyClient = StrategyPatternClient()
-strategyClient.mainRun()
+//适配器模式
+let adapterPatternClient = AdapterClient()
+adapterPatternClient.mainRun()
