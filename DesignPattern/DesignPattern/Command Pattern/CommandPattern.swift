@@ -42,7 +42,7 @@ class ConcreteReceiver2:Receiver{
 }
 
 protocol Command { //这里就是需要干的那些活的抽象
-    func excute();
+    func execute();
 }
 
 class ConcreteCommand:Command  //具体要干什么活 由谁来干
@@ -51,7 +51,7 @@ class ConcreteCommand:Command  //具体要干什么活 由谁来干
     init(aReceiver:Receiver) {
         receiver = aReceiver;
     }
-    public func excute() {
+    public func execute() {
         receiver.doSomething()
     }
 }
@@ -62,7 +62,7 @@ class ConcreteCommand2:Command
     init(aReceiver:Receiver) {
         receiver = aReceiver;
     }
-    public func excute() {
+    public func execute() {
         receiver.doSomething()
     }
     
@@ -74,7 +74,7 @@ class ConcreteCommand3:Command //多个接受者 协作处理
     private let coder = ConcreteReceiver1()
     private let designer = ConcreteReceiver1()
     
-    public func excute() {
+    public func execute() {
         print("begin")
         designer.doSomething()
         print("...ing")
@@ -89,7 +89,7 @@ class Invoker{
         command = aCommand;
     }
     func action(){
-        command?.excute()
+        command?.execute()
     }
 }
 //场景模拟： 客户对项目组提各种需求

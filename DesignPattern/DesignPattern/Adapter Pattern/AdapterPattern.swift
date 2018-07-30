@@ -52,7 +52,7 @@ class ConcreteAdaptee:Adaptee{
     }
 }
 
-//确实装饰模式有点像
+//确实装饰模式有点像，将Target 和Adaptee进行适配
 class Adapter: Target, Adaptee{
     func request() {
         print("进行了适配")

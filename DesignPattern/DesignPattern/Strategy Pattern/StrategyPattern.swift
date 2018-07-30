@@ -69,8 +69,10 @@ class StrategyPatternClient{
         context.operation();
         
         //实现加减法
-        let enum1 = Calculator.add(2, 4).exe()
+        var enum1 = Calculator.add(2, 4).exe()
         print("Calculator add execute:\(enum1)")
+        enum1 = Calculator.sub(2, 4).exe()
+        print("Calculator sub execute:\(enum1)")
     }
 }
 

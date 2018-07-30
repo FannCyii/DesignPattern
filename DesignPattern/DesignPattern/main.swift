@@ -28,6 +28,10 @@ print("=================================")
 //let strategyClient = StrategyPatternClient()
 //strategyClient.mainRun()
 
-//适配器模式
-let adapterPatternClient = AdapterClient()
-adapterPatternClient.mainRun()
+////适配器模式
+//let adapterPatternClient = AdapterClient()
+//adapterPatternClient.mainRun()
+
+//迭代器模式
+let iteratorPatternClient = IteratorPatter()
+iteratorPatternClient.mainRun()
