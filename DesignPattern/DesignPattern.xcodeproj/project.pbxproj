@@ -14,6 +14,7 @@
 		1453115F21040B3300064363 /* ChainOfResponsibilityPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1453115E21040B3300064363 /* ChainOfResponsibilityPattern.swift */; };
 		145311622106256100064363 /* decoratorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145311612106256100064363 /* decoratorPattern.swift */; };
 		146610E2210F5EEF00C29D10 /* IteratorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146610E1210F5EEF00C29D10 /* IteratorPattern.swift */; };
+		146611322110B03900C29D10 /* CompositePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146611312110B03900C29D10 /* CompositePattern.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		1453115E21040B3300064363 /* ChainOfResponsibilityPattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainOfResponsibilityPattern.swift; sourceTree = "<group>"; };
 		145311612106256100064363 /* decoratorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = decoratorPattern.swift; sourceTree = "<group>"; };
 		146610E1210F5EEF00C29D10 /* IteratorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteratorPattern.swift; sourceTree = "<group>"; };
+		146611312110B03900C29D10 /* CompositePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositePattern.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,11 +88,12 @@
 			isa = PBXGroup;
 			children = (
 				145311602106253300064363 /* DecoratorPattern */,
-				1453115D21040AFE00064363 /* ChainOfResponsibilityPattern */,
+				1453115D21040AFE00064363 /* ChainOfResponsibility Pattern */,
 				1453115720FF819C00064363 /* Command Pattern */,
 				143EDA8B2108BA1A0039F48B /* Strategy Pattern */,
 				143EDA8E210A11B20039F48B /* Adapter Pattern */,
-				146610E0210F5EBC00C29D10 /* 迭代器模式 */,
+				146610E0210F5EBC00C29D10 /* Iterator Pattern */,
+				146611302110B01800C29D10 /* Composite Pattern */,
 				1453115020FF816B00064363 /* main.swift */,
 			);
 			path = DesignPattern;
@@ -104,12 +107,12 @@
 			path = "Command Pattern";
 			sourceTree = "<group>";
 		};
-		1453115D21040AFE00064363 /* ChainOfResponsibilityPattern */ = {
+		1453115D21040AFE00064363 /* ChainOfResponsibility Pattern */ = {
 			isa = PBXGroup;
 			children = (
 				1453115E21040B3300064363 /* ChainOfResponsibilityPattern.swift */,
 			);
-			path = ChainOfResponsibilityPattern;
+			path = "ChainOfResponsibility Pattern";
 			sourceTree = "<group>";
 		};
 		145311602106253300064363 /* DecoratorPattern */ = {
@@ -120,12 +123,20 @@
 			path = DecoratorPattern;
 			sourceTree = "<group>";
 		};
-		146610E0210F5EBC00C29D10 /* 迭代器模式 */ = {
+		146610E0210F5EBC00C29D10 /* Iterator Pattern */ = {
 			isa = PBXGroup;
 			children = (
 				146610E1210F5EEF00C29D10 /* IteratorPattern.swift */,
 			);
-			path = "迭代器模式";
+			path = "Iterator Pattern";
+			sourceTree = "<group>";
+		};
+		146611302110B01800C29D10 /* Composite Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				146611312110B03900C29D10 /* CompositePattern.swift */,
+			);
+			path = "Composite Pattern";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +199,7 @@
 			files = (
 				1453115F21040B3300064363 /* ChainOfResponsibilityPattern.swift in Sources */,
 				146610E2210F5EEF00C29D10 /* IteratorPattern.swift in Sources */,
+				146611322110B03900C29D10 /* CompositePattern.swift in Sources */,
 				1453115120FF816B00064363 /* main.swift in Sources */,
 				143EDA90210A11D30039F48B /* AdapterPattern.swift in Sources */,
 				143EDA8D2108BA660039F48B /* StrategyPattern.swift in Sources */,

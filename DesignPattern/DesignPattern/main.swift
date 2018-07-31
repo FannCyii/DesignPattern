@@ -32,6 +32,10 @@ print("=================================")
 //let adapterPatternClient = AdapterClient()
 //adapterPatternClient.mainRun()
 
-//迭代器模式
-let iteratorPatternClient = IteratorPatter()
-iteratorPatternClient.mainRun()
+////迭代器模式
+//let iteratorPatternClient = IteratorPatter()
+//iteratorPatternClient.mainRun()
+
+//组合模式
+let compositePatterClient = CompositePatternClient()
+compositePatterClient.mainRun();

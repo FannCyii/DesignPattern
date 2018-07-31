@@ -25,13 +25,13 @@ import Foundation
  ConcreteDecorator 具体装饰者
  */
 
-class Component{ //抽象类
+private class Component{ //抽象类
     public func operate(){
         
     }
 }
 
-class Decorator:Component{
+private class Decorator:Component{
     var compnent = Component()
     init(comp:Component){
         compnent = comp;
@@ -41,13 +41,13 @@ class Decorator:Component{
     }
 }
 
-class ConcreteComponent:Component{
+private class ConcreteComponent:Component{
     override func operate(){
         print("这是原始操作！")
     }
 }
 
-class ConcreteDecorator1:Decorator{
+private class ConcreteDecorator1:Decorator{
     init(compnent:Component) {
         super.init(comp: compnent)
     }
@@ -64,7 +64,7 @@ class ConcreteDecorator1:Decorator{
     
 }
 
-class ConcreteDecorator2:Decorator{
+private class ConcreteDecorator2:Decorator{
     init(compnent:Component) {
         super.init(comp: compnent)
     }
@@ -79,7 +79,7 @@ class ConcreteDecorator2:Decorator{
     }
 }
 
-class ConcreteDecorator3:Decorator{
+private class ConcreteDecorator3:Decorator{
     init(compnent:Component) {
         super.init(comp: compnent)
     }

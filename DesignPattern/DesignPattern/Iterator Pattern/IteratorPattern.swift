@@ -115,7 +115,7 @@ class IteratorPatter{
 
 
 //swift 中有对象迭代器protocol,可以用于实现自己的迭代器
-// 即：IteratroProtocol 
+// 即：IteratroProtocol
 
 
 
