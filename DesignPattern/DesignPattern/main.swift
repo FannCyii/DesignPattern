@@ -36,6 +36,10 @@ print("=================================")
 //let iteratorPatternClient = IteratorPatter()
 //iteratorPatternClient.mainRun()
 
-//组合模式
-let compositePatterClient = CompositePatternClient()
-compositePatterClient.mainRun();
+////组合模式
+//let compositePatterClient = CompositePatternClient()
+//compositePatterClient.mainRun();
+
+//观察者模式
+let observerPatternClient = ObserverPatternClient()
+observerPatternClient.mainRun();

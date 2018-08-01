@@ -15,6 +15,7 @@
 		145311622106256100064363 /* decoratorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145311612106256100064363 /* decoratorPattern.swift */; };
 		146610E2210F5EEF00C29D10 /* IteratorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146610E1210F5EEF00C29D10 /* IteratorPattern.swift */; };
 		146611322110B03900C29D10 /* CompositePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146611312110B03900C29D10 /* CompositePattern.swift */; };
+		146611352111FF5200C29D10 /* ObserverPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146611342111FF5200C29D10 /* ObserverPattern.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,7 @@
 		145311612106256100064363 /* decoratorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = decoratorPattern.swift; sourceTree = "<group>"; };
 		146610E1210F5EEF00C29D10 /* IteratorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteratorPattern.swift; sourceTree = "<group>"; };
 		146611312110B03900C29D10 /* CompositePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositePattern.swift; sourceTree = "<group>"; };
+		146611342111FF5200C29D10 /* ObserverPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverPattern.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				143EDA8E210A11B20039F48B /* Adapter Pattern */,
 				146610E0210F5EBC00C29D10 /* Iterator Pattern */,
 				146611302110B01800C29D10 /* Composite Pattern */,
+				146611332111FECC00C29D10 /* Observer Pattern */,
 				1453115020FF816B00064363 /* main.swift */,
 			);
 			path = DesignPattern;
@@ -137,6 +140,14 @@
 				146611312110B03900C29D10 /* CompositePattern.swift */,
 			);
 			path = "Composite Pattern";
+			sourceTree = "<group>";
+		};
+		146611332111FECC00C29D10 /* Observer Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				146611342111FF5200C29D10 /* ObserverPattern.swift */,
+			);
+			path = "Observer Pattern";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +214,7 @@
 				1453115120FF816B00064363 /* main.swift in Sources */,
 				143EDA90210A11D30039F48B /* AdapterPattern.swift in Sources */,
 				143EDA8D2108BA660039F48B /* StrategyPattern.swift in Sources */,
+				146611352111FF5200C29D10 /* ObserverPattern.swift in Sources */,
 				145311622106256100064363 /* decoratorPattern.swift in Sources */,
 				1453115920FF820800064363 /* CommandPattern.swift in Sources */,
 			);
