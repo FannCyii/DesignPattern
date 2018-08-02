@@ -40,6 +40,10 @@ print("=================================")
 //let compositePatterClient = CompositePatternClient()
 //compositePatterClient.mainRun();
 
-//观察者模式
-let observerPatternClient = ObserverPatternClient()
-observerPatternClient.mainRun();
+////观察者模式
+//let observerPatternClient = ObserverPatternClient()
+//observerPatternClient.mainRun();
+
+//门面模式
+let facadePatterClent = FacadePAtternClient()
+facadePatterClent.mainRun()
