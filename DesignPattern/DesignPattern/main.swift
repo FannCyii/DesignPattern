@@ -44,6 +44,10 @@ print("=================================")
 //let observerPatternClient = ObserverPatternClient()
 //observerPatternClient.mainRun();
 
-//门面模式
-let facadePatterClent = FacadePAtternClient()
-facadePatterClent.mainRun()
+////门面模式
+//let facadePatterClent = FacadePAtternClient()
+//facadePatterClent.mainRun()
+
+//备忘录模式
+let mementoPatternClient = MementoPatterClient()
+mementoPatternClient.mainRun()
