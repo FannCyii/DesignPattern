@@ -18,6 +18,7 @@
 		146611322110B03900C29D10 /* CompositePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146611312110B03900C29D10 /* CompositePattern.swift */; };
 		146611352111FF5200C29D10 /* ObserverPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146611342111FF5200C29D10 /* ObserverPattern.swift */; };
 		1466116021135ED200C29D10 /* FacadePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1466115F21135ED200C29D10 /* FacadePattern.swift */; };
+		14F593A721174441008EF7CA /* VisitorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F593A621174441008EF7CA /* VisitorPattern.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		146611312110B03900C29D10 /* CompositePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositePattern.swift; sourceTree = "<group>"; };
 		146611342111FF5200C29D10 /* ObserverPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverPattern.swift; sourceTree = "<group>"; };
 		1466115F21135ED200C29D10 /* FacadePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadePattern.swift; sourceTree = "<group>"; };
+		14F593A621174441008EF7CA /* VisitorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorPattern.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		1453114F20FF816A00064363 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				14F593A521174420008EF7CA /* Visiter Pattern */,
 				14335BC121157E9400D76729 /* Memento Pattern */,
 				1466115E21135E7200C29D10 /* Facade Pattern */,
 				145311602106253300064363 /* DecoratorPattern */,
@@ -172,6 +175,14 @@
 			path = "Facade Pattern";
 			sourceTree = "<group>";
 		};
+		14F593A521174420008EF7CA /* Visiter Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				14F593A621174441008EF7CA /* VisitorPattern.swift */,
+			);
+			path = "Visiter Pattern";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -239,6 +250,7 @@
 				146611352111FF5200C29D10 /* ObserverPattern.swift in Sources */,
 				145311622106256100064363 /* decoratorPattern.swift in Sources */,
 				14335BC321157EC000D76729 /* MementoPattern.swift in Sources */,
+				14F593A721174441008EF7CA /* VisitorPattern.swift in Sources */,
 				1466116021135ED200C29D10 /* FacadePattern.swift in Sources */,
 				1453115920FF820800064363 /* CommandPattern.swift in Sources */,
 			);

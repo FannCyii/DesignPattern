@@ -48,6 +48,10 @@ print("=================================")
 //let facadePatterClent = FacadePAtternClient()
 //facadePatterClent.mainRun()
 
-//备忘录模式
-let mementoPatternClient = MementoPatterClient()
-mementoPatternClient.mainRun()
+////备忘录模式
+//let mementoPatternClient = MementoPatterClient()
+//mementoPatternClient.mainRun()
+
+//访问者模式
+let visitorPatternClient = VisitorPatternClient()
+visitorPatternClient.mainRun()
