@@ -52,6 +52,10 @@ print("=================================")
 //let mementoPatternClient = MementoPatterClient()
 //mementoPatternClient.mainRun()
 
-//访问者模式
-let visitorPatternClient = VisitorPatternClient()
-visitorPatternClient.mainRun()
+////访问者模式
+//let visitorPatternClient = VisitorPatternClient()
+//visitorPatternClient.mainRun()
+
+//状态模式
+let statePatterClient = StatePatterClient()
+statePatterClient.mainRun()

@@ -133,7 +133,7 @@ class VisitorPatternClient{
  
  
  .... 访问者模式 是双分派，
-还有但分派 了解下。。。
+还有但分派 了解下。。。 
  
  */
 

@@ -45,7 +45,7 @@ class ConcreteStrategy2:Strategy{
     }
 }
 
-class Context{
+fileprivate class Context{
     private var strategy:Strategy?
     init(strategy:Strategy) {
         self.strategy = strategy
