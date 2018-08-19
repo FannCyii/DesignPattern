@@ -56,6 +56,16 @@ print("=================================")
 //let visitorPatternClient = VisitorPatternClient()
 //visitorPatternClient.mainRun()
 
-//状态模式
-let statePatterClient = StatePatterClient()
-statePatterClient.mainRun()
+////状态模式
+//let statePatterClient = StatePatterClient()
+//statePatterClient.mainRun()
+
+////解释器模式
+//let interpreter = InterpreterPatterClient()
+//interpreter.mainRun()
+
+
+
+
+
+
