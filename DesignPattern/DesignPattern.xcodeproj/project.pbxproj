@@ -20,6 +20,7 @@
 		1466116021135ED200C29D10 /* FacadePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1466115F21135ED200C29D10 /* FacadePattern.swift */; };
 		14CE257F2125C5B800828A45 /* StatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CE257E2125C5B800828A45 /* StatePattern.swift */; };
 		14CE25852129148A00828A45 /* InterpreterPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CE25842129148A00828A45 /* InterpreterPattern.swift */; };
+		14F239AD21441AD500C4D181 /* FlyweightPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F239AC21441AD500C4D181 /* FlyweightPattern.swift */; };
 		14F593A721174441008EF7CA /* VisitorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F593A621174441008EF7CA /* VisitorPattern.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		1466115F21135ED200C29D10 /* FacadePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadePattern.swift; sourceTree = "<group>"; };
 		14CE257E2125C5B800828A45 /* StatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePattern.swift; sourceTree = "<group>"; };
 		14CE25842129148A00828A45 /* InterpreterPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpreterPattern.swift; sourceTree = "<group>"; };
+		14F239AC21441AD500C4D181 /* FlyweightPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyweightPattern.swift; sourceTree = "<group>"; };
 		14F593A621174441008EF7CA /* VisitorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorPattern.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,6 +109,7 @@
 		1453114F20FF816A00064363 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				14F239AB21441A9A00C4D181 /* FlyweightPattern */,
 				14CE25832129146D00828A45 /* Interpreter Pattern */,
 				14CE257D2125C58A00828A45 /* State Pattern */,
 				14F593A521174420008EF7CA /* Visiter Pattern */,
@@ -197,6 +200,14 @@
 			path = "Interpreter Pattern";
 			sourceTree = "<group>";
 		};
+		14F239AB21441A9A00C4D181 /* FlyweightPattern */ = {
+			isa = PBXGroup;
+			children = (
+				14F239AC21441AD500C4D181 /* FlyweightPattern.swift */,
+			);
+			path = FlyweightPattern;
+			sourceTree = "<group>";
+		};
 		14F593A521174420008EF7CA /* Visiter Pattern */ = {
 			isa = PBXGroup;
 			children = (
@@ -266,6 +277,7 @@
 				1453115F21040B3300064363 /* ChainOfResponsibilityPattern.swift in Sources */,
 				146610E2210F5EEF00C29D10 /* IteratorPattern.swift in Sources */,
 				146611322110B03900C29D10 /* CompositePattern.swift in Sources */,
+				14F239AD21441AD500C4D181 /* FlyweightPattern.swift in Sources */,
 				1453115120FF816B00064363 /* main.swift in Sources */,
 				143EDA90210A11D30039F48B /* AdapterPattern.swift in Sources */,
 				143EDA8D2108BA660039F48B /* StrategyPattern.swift in Sources */,
