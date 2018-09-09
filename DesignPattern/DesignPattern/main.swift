@@ -64,10 +64,13 @@ print("=================================")
 //let interpreter = InterpreterPatterClient()
 //interpreter.mainRun()
 
-//享元模式
-let flyweightPattern = FlyweightClient()
-flyweightPattern.mainRun()
+////享元模式
+//let flyweightPattern = FlyweightClient()
+//flyweightPattern.mainRun()
 
+//桥梁模式
+let bridgePattern = BrigePattern()
+bridgePattern.mainRun()
 
 
 
