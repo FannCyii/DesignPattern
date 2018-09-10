@@ -68,9 +68,13 @@ print("=================================")
 //let flyweightPattern = FlyweightClient()
 //flyweightPattern.mainRun()
 
-//桥梁模式
-let bridgePattern = BrigePattern()
-bridgePattern.mainRun()
+////桥梁模式
+//let bridgePattern = BrigePattern()
+//bridgePattern.mainRun()
+
+//单利模式
+let singletonPattern = SingletonPatternClient()
+singletonPattern.mainRun()
 
 
 
