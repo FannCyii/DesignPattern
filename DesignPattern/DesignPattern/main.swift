@@ -72,9 +72,11 @@ print("=================================")
 //let bridgePattern = BrigePattern()
 //bridgePattern.mainRun()
 
-//单利模式
-let singletonPattern = SingletonPatternClient()
-singletonPattern.mainRun()
+////单利模式
+//let singletonPattern = SingletonPatternClient()
+//singletonPattern.mainRun()
 
-
+//工厂方法模式
+let factoryMethodClient = FactoryProductPatternClient()
+factoryMethodClient.mainFunc()
 

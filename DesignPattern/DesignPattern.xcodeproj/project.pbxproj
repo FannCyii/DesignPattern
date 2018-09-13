@@ -24,6 +24,7 @@
 		14F239B02145364800C4D181 /* BridgePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F239AF2145364800C4D181 /* BridgePattern.swift */; };
 		14F239B321453CEF00C4D181 /* SingletonPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F239B221453CEF00C4D181 /* SingletonPattern.swift */; };
 		14F593A721174441008EF7CA /* VisitorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F593A621174441008EF7CA /* VisitorPattern.swift */; };
+		14F5BD8D214A9FC5001D5DA9 /* FactoryMethodPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F5BD8C214A9FC5001D5DA9 /* FactoryMethodPattern.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,6 +58,7 @@
 		14F239AF2145364800C4D181 /* BridgePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgePattern.swift; sourceTree = "<group>"; };
 		14F239B221453CEF00C4D181 /* SingletonPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonPattern.swift; sourceTree = "<group>"; };
 		14F593A621174441008EF7CA /* VisitorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorPattern.swift; sourceTree = "<group>"; };
+		14F5BD8C214A9FC5001D5DA9 /* FactoryMethodPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethodPattern.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		1453114F20FF816A00064363 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				14F5BD8B214A9E9D001D5DA9 /* FactoryPattern */,
 				14F239B121453CC000C4D181 /* Singleton Pattern */,
 				14F239AE2145362500C4D181 /* BridgePattern */,
 				14F239AB21441A9A00C4D181 /* FlyweightPattern */,
@@ -238,6 +241,14 @@
 			path = "Visiter Pattern";
 			sourceTree = "<group>";
 		};
+		14F5BD8B214A9E9D001D5DA9 /* FactoryPattern */ = {
+			isa = PBXGroup;
+			children = (
+				14F5BD8C214A9FC5001D5DA9 /* FactoryMethodPattern.swift */,
+			);
+			path = FactoryPattern;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -305,6 +316,7 @@
 				143EDA90210A11D30039F48B /* AdapterPattern.swift in Sources */,
 				143EDA8D2108BA660039F48B /* StrategyPattern.swift in Sources */,
 				14CE257F2125C5B800828A45 /* StatePattern.swift in Sources */,
+				14F5BD8D214A9FC5001D5DA9 /* FactoryMethodPattern.swift in Sources */,
 				146611352111FF5200C29D10 /* ObserverPattern.swift in Sources */,
 				14F239B02145364800C4D181 /* BridgePattern.swift in Sources */,
 				145311622106256100064363 /* decoratorPattern.swift in Sources */,
