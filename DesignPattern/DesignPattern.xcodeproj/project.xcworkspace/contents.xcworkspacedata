@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:DesignPattern.xcodeproj">
+      location = "group:../DelegatePattern.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../../README.md">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

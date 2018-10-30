@@ -52,12 +52,12 @@ fileprivate class ConcreteProduct2:Product{
     }
 }
 
-
+//#3
 fileprivate protocol AbstractFactory{
 //    associatedtype Element
     func createProduct(_ pClass:Product.Type)->Product;
 }
-
+//#4  //如果一个模块只需要一个工厂 那么可以使用简单工厂模式，不需要#3 AbstractFactory抽象层了
 fileprivate class concreteFactory:AbstractFactory{
     func createProduct(_ pClass:Product.Type)->Product{
         let product = pClass.product();
@@ -65,9 +65,12 @@ fileprivate class concreteFactory:AbstractFactory{
     }
 }
 
+
+
+
 class FactoryProductPatternClient{
     func mainFunc(){
-        let factory = concreteFactory()
+        let factory:AbstractFactory = concreteFactory()
         let product1 = factory.createProduct(ConcreteProduct1.self)
         let product2 = factory.createProduct(ConcreteProduct2.self)
         

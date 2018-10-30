@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		142DFE742182108700266A19 /* DelegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142DFE732182108700266A19 /* DelegatePattern.swift */; };
 		14335BC321157EC000D76729 /* MementoPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14335BC221157EC000D76729 /* MementoPattern.swift */; };
 		143EDA8D2108BA660039F48B /* StrategyPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143EDA8C2108BA660039F48B /* StrategyPattern.swift */; };
 		143EDA90210A11D30039F48B /* AdapterPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143EDA8F210A11D30039F48B /* AdapterPattern.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		142DFE732182108700266A19 /* DelegatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatePattern.swift; sourceTree = "<group>"; };
 		14335BC221157EC000D76729 /* MementoPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MementoPattern.swift; sourceTree = "<group>"; };
 		143EDA8C2108BA660039F48B /* StrategyPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyPattern.swift; sourceTree = "<group>"; };
 		143EDA8F210A11D30039F48B /* AdapterPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterPattern.swift; sourceTree = "<group>"; };
@@ -72,6 +74,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		142DFE722182102C00266A19 /* ProxyPattern */ = {
+			isa = PBXGroup;
+			children = (
+				142DFE732182108700266A19 /* DelegatePattern.swift */,
+			);
+			path = ProxyPattern;
+			sourceTree = "<group>";
+		};
 		14335BC121157E9400D76729 /* Memento Pattern */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +125,7 @@
 		1453114F20FF816A00064363 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				142DFE722182102C00266A19 /* ProxyPattern */,
 				14F5BD8B214A9E9D001D5DA9 /* FactoryPattern */,
 				14F239B121453CC000C4D181 /* Singleton Pattern */,
 				14F239AE2145362500C4D181 /* BridgePattern */,
@@ -311,6 +322,7 @@
 				146610E2210F5EEF00C29D10 /* IteratorPattern.swift in Sources */,
 				146611322110B03900C29D10 /* CompositePattern.swift in Sources */,
 				14F239B321453CEF00C4D181 /* SingletonPattern.swift in Sources */,
+				142DFE742182108700266A19 /* DelegatePattern.swift in Sources */,
 				14F239AD21441AD500C4D181 /* FlyweightPattern.swift in Sources */,
 				1453115120FF816B00064363 /* main.swift in Sources */,
 				143EDA90210A11D30039F48B /* AdapterPattern.swift in Sources */,
@@ -443,7 +455,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YAEL4C965W;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -453,7 +465,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YAEL4C965W;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};

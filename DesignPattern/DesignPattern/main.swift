@@ -77,6 +77,9 @@ print("=================================")
 //singletonPattern.mainRun()
 
 //工厂方法模式
-let factoryMethodClient = FactoryProductPatternClient()
-factoryMethodClient.mainFunc()
+//let factoryMethodClient = FactoryProductPatternClient()
+//factoryMethodClient.mainFunc()
 
+//代理模式
+let proxyPatterClient = ProxyPatternClient()
+proxyPatterClient.mainFunc()
