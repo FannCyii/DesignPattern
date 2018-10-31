@@ -52,7 +52,7 @@ fileprivate class Composite:Component{
  
     func adds(_ subComponent:Component)->Composite{
         subCompons.append(subComponent)
-        retuen self
+        return self
     }
     func allSubComponents()->Array<Component>{
         return self.subCompons
