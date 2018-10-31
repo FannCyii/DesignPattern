@@ -49,6 +49,11 @@ fileprivate class Composite:Component{
     }
 //    func remove(subComponent:Component){
 //    }
+ 
+    func adds(_ subComponent:Component)->Composite{
+        subCompons.append(subComponent)
+        retuen self
+    }
     func allSubComponents()->Array<Component>{
         return self.subCompons
     }
@@ -65,6 +70,9 @@ class CompositePatternClient{
         root.add(subComponent: captain)
         root.add(subComponent: leaf1)
         
+        //可以以一种链式的方式添加
+        root.adds(captain).adds(leaf1)
+     
         display(root: root)
     }
     
