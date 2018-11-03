@@ -1,7 +1,7 @@
 
 Design Pattern In Swift
 
-##结构类模式
+##结构类模式##
 
 [适配器模式](https://github.com/FannCyii/DesignPattern/blob/master/DesignPattern/DesignPattern/Adapter%20Pattern/AdapterPattern.swift)
 
@@ -20,7 +20,7 @@ Design Pattern In Swift
 [代理模式](https://github.com/FannCyii/DesignPattern/blob/master/DesignPattern/DesignPattern/ProxyPattern/DelegatePattern.swift)
 
 
-##行为类模式
+##行为类模式##
 
 [责任链模式](https://github.com/FannCyii/DesignPattern/blob/master/DesignPattern/DesignPattern/ChainOfResponsibility%20Pattern/ChainOfResponsibilityPattern.swift)
 
@@ -30,19 +30,22 @@ Design Pattern In Swift
 
 [迭代器模式](https://github.com/FannCyii/DesignPattern/blob/master/DesignPattern/DesignPattern/Iterator%20Pattern/IteratorPattern.swift)
 
-[中介者模式]()
+[中介者模式](https://github.com/FannCyii/DesignPattern/blob/master/DesignPattern/DesignPattern/MediatorPattern/MediatorPattern.swift)
 
-[备忘录模式]()
+[备忘录模式](https://github.com/FannCyii/DesignPattern/blob/master/DesignPattern/DesignPattern/Memento%20Pattern/MementoPattern.swift)
 
-[观察者模式]()
+[观察者模式](https://github.com/FannCyii/DesignPattern/blob/master/DesignPattern/DesignPattern/Observer%20Pattern/ObserverPattern.swift)
 
-[状态模式]()
+[状态模式](https://github.com/FannCyii/DesignPattern/blob/master/DesignPattern/DesignPattern/State%20Pattern/StatePattern.swift)
 
-[策略模式]()
+[策略模式](https://github.com/FannCyii/DesignPattern/blob/master/DesignPattern/DesignPattern/Strategy%20Pattern/StrategyPattern.swift)
 
 [模板方法模式]()
 
-[访问者模式]()
+[访问者模式](https://github.com/FannCyii/DesignPattern/blob/master/DesignPattern/DesignPattern/Visiter%20Pattern/VisitorPattern.swift)
+
+
+
 
 
 

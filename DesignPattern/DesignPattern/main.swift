@@ -84,6 +84,11 @@ print("=================================")
 //let proxyPatterClient = ProxyPatternClient()
 //proxyPatterClient.mainFunc()
 
-//中介者模式
-let mediatorPattern = MediatorPatternClient()
-mediatorPattern.mainFunc()
+////中介者模式
+//let mediatorPattern = MediatorPatternClient()
+//mediatorPattern.mainFunc()
+
+//模板方法
+
+let templateMethodPattern = TemplateMethodPatternClient()
+templateMethodPattern.mainFunc()
