@@ -88,7 +88,10 @@ print("=================================")
 //let mediatorPattern = MediatorPatternClient()
 //mediatorPattern.mainFunc()
 
-//模板方法
+//模板方法模式
+//let templateMethodPattern = TemplateMethodPatternClient()
+//templateMethodPattern.mainFunc()
 
-let templateMethodPattern = TemplateMethodPatternClient()
-templateMethodPattern.mainFunc()
+//建造者模式
+let builderPattern = BuilderPatternClient()
+builderPattern.mainFunc()

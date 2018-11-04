@@ -40,7 +40,7 @@ Design Pattern In Swift
 
 [策略模式](https://github.com/FannCyii/DesignPattern/blob/master/DesignPattern/DesignPattern/Strategy%20Pattern/StrategyPattern.swift)
 
-[模板方法模式]()
+[模板方法模式](https://github.com/FannCyii/DesignPattern/tree/master/DesignPattern/DesignPattern/TemplateMethodPattern)
 
 [访问者模式](https://github.com/FannCyii/DesignPattern/blob/master/DesignPattern/DesignPattern/Visiter%20Pattern/VisitorPattern.swift)
 

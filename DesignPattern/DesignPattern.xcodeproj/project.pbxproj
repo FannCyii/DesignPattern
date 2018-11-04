@@ -21,6 +21,7 @@
 		1466116021135ED200C29D10 /* FacadePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1466115F21135ED200C29D10 /* FacadePattern.swift */; };
 		148542B22189DDC4008D412C /* MediatorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148542B12189DDC4008D412C /* MediatorPattern.swift */; };
 		14ADEEC3218DC1D100206DC0 /* TemplateMethodPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ADEEC2218DC1D100206DC0 /* TemplateMethodPattern.swift */; };
+		14ADEEC6218E933600206DC0 /* BuilderPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ADEEC5218E933600206DC0 /* BuilderPattern.swift */; };
 		14CE257F2125C5B800828A45 /* StatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CE257E2125C5B800828A45 /* StatePattern.swift */; };
 		14CE25852129148A00828A45 /* InterpreterPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CE25842129148A00828A45 /* InterpreterPattern.swift */; };
 		14F239AD21441AD500C4D181 /* FlyweightPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F239AC21441AD500C4D181 /* FlyweightPattern.swift */; };
@@ -58,6 +59,7 @@
 		1466115F21135ED200C29D10 /* FacadePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadePattern.swift; sourceTree = "<group>"; };
 		148542B12189DDC4008D412C /* MediatorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediatorPattern.swift; sourceTree = "<group>"; };
 		14ADEEC2218DC1D100206DC0 /* TemplateMethodPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateMethodPattern.swift; sourceTree = "<group>"; };
+		14ADEEC5218E933600206DC0 /* BuilderPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderPattern.swift; sourceTree = "<group>"; };
 		14CE257E2125C5B800828A45 /* StatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePattern.swift; sourceTree = "<group>"; };
 		14CE25842129148A00828A45 /* InterpreterPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpreterPattern.swift; sourceTree = "<group>"; };
 		14F239AC21441AD500C4D181 /* FlyweightPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyweightPattern.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 		1453114F20FF816A00064363 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				14ADEEC4218E932100206DC0 /* BuilderPattern */,
 				14ADEEC1218DC15D00206DC0 /* TemplateMethodPattern */,
 				148542B02189DDAA008D412C /* MediatorPattern */,
 				142DFE722182102C00266A19 /* ProxyPattern */,
@@ -224,6 +227,14 @@
 				14ADEEC2218DC1D100206DC0 /* TemplateMethodPattern.swift */,
 			);
 			path = TemplateMethodPattern;
+			sourceTree = "<group>";
+		};
+		14ADEEC4218E932100206DC0 /* BuilderPattern */ = {
+			isa = PBXGroup;
+			children = (
+				14ADEEC5218E933600206DC0 /* BuilderPattern.swift */,
+			);
+			path = BuilderPattern;
 			sourceTree = "<group>";
 		};
 		14CE257D2125C58A00828A45 /* State Pattern */ = {
@@ -350,6 +361,7 @@
 				148542B22189DDC4008D412C /* MediatorPattern.swift in Sources */,
 				143EDA90210A11D30039F48B /* AdapterPattern.swift in Sources */,
 				143EDA8D2108BA660039F48B /* StrategyPattern.swift in Sources */,
+				14ADEEC6218E933600206DC0 /* BuilderPattern.swift in Sources */,
 				14CE257F2125C5B800828A45 /* StatePattern.swift in Sources */,
 				14F5BD8D214A9FC5001D5DA9 /* FactoryMethodPattern.swift in Sources */,
 				146611352111FF5200C29D10 /* ObserverPattern.swift in Sources */,
