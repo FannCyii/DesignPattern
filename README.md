@@ -1,7 +1,7 @@
 
 Design Pattern In Swift
 
-##结构类模式##
+## 结构类模式
 
 [适配器模式](https://github.com/FannCyii/DesignPattern/blob/master/DesignPattern/DesignPattern/Adapter%20Pattern/AdapterPattern.swift)
 
@@ -19,8 +19,9 @@ Design Pattern In Swift
 
 [代理模式](https://github.com/FannCyii/DesignPattern/blob/master/DesignPattern/DesignPattern/ProxyPattern/DelegatePattern.swift)
 
+---
 
-##行为类模式##
+## 行为类模式
 
 [责任链模式](https://github.com/FannCyii/DesignPattern/blob/master/DesignPattern/DesignPattern/ChainOfResponsibility%20Pattern/ChainOfResponsibilityPattern.swift)
 
@@ -43,6 +44,23 @@ Design Pattern In Swift
 [模板方法模式](https://github.com/FannCyii/DesignPattern/tree/master/DesignPattern/DesignPattern/TemplateMethodPattern)
 
 [访问者模式](https://github.com/FannCyii/DesignPattern/blob/master/DesignPattern/DesignPattern/Visiter%20Pattern/VisitorPattern.swift)
+
+---
+
+## 创建类模式
+
+[工厂方法模式](https://github.com/FannCyii/DesignPattern/tree/master/DesignPattern/DesignPattern/FactoryPattern)
+
+[建造者模式](https://github.com/FannCyii/DesignPattern/tree/master/DesignPattern/DesignPattern/BuilderPattern)
+
+[单利模式](https://github.com/FannCyii/DesignPattern/tree/master/DesignPattern/DesignPattern/Singleton%20Pattern)
+
+[原型模式]()
+
+
+
+
+
 
 
 
