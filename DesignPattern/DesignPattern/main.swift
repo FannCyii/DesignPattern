@@ -93,5 +93,8 @@ print("=================================")
 //templateMethodPattern.mainFunc()
 
 //建造者模式
-let builderPattern = BuilderPatternClient()
+//let builderPattern = BuilderPatternClient()
+//builderPattern.mainFunc()
+
+let builderPattern = BuilderPatternClient2()
 builderPattern.mainFunc()

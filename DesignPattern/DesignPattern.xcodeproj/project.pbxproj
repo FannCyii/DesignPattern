@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14090A90222ECBB60066A3D1 /* BuilderPattern2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14090A8F222ECBB60066A3D1 /* BuilderPattern2.swift */; };
 		142DFE742182108700266A19 /* DelegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142DFE732182108700266A19 /* DelegatePattern.swift */; };
 		14335BC321157EC000D76729 /* MementoPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14335BC221157EC000D76729 /* MementoPattern.swift */; };
 		143EDA8D2108BA660039F48B /* StrategyPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143EDA8C2108BA660039F48B /* StrategyPattern.swift */; };
@@ -44,6 +45,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		14090A8F222ECBB60066A3D1 /* BuilderPattern2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderPattern2.swift; sourceTree = "<group>"; };
 		142DFE732182108700266A19 /* DelegatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatePattern.swift; sourceTree = "<group>"; };
 		14335BC221157EC000D76729 /* MementoPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MementoPattern.swift; sourceTree = "<group>"; };
 		143EDA8C2108BA660039F48B /* StrategyPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyPattern.swift; sourceTree = "<group>"; };
@@ -233,6 +235,7 @@
 			isa = PBXGroup;
 			children = (
 				14ADEEC5218E933600206DC0 /* BuilderPattern.swift */,
+				14090A8F222ECBB60066A3D1 /* BuilderPattern2.swift */,
 			);
 			path = BuilderPattern;
 			sourceTree = "<group>";
@@ -365,6 +368,7 @@
 				14CE257F2125C5B800828A45 /* StatePattern.swift in Sources */,
 				14F5BD8D214A9FC5001D5DA9 /* FactoryMethodPattern.swift in Sources */,
 				146611352111FF5200C29D10 /* ObserverPattern.swift in Sources */,
+				14090A90222ECBB60066A3D1 /* BuilderPattern2.swift in Sources */,
 				14F239B02145364800C4D181 /* BridgePattern.swift in Sources */,
 				145311622106256100064363 /* decoratorPattern.swift in Sources */,
 				14335BC321157EC000D76729 /* MementoPattern.swift in Sources */,
