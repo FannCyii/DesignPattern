@@ -26,6 +26,10 @@ import Foundation
  Context 封装角色，b屏蔽高层模块对策略（算法）的直接访问
  Strategy 抽象策略角色，定义每个算法必须有的方法或属性
  ConcreteStrategy 具体策略角色
+
+
+疑惑： 为何能消除if else 语句？ 看很多例子只不过是将context中的ifelse 移动到工程中，或者另一个管理类（必定绕不开对给定条件的筛选，
+就是需要一个类似ifelse的过程），例如使用map<key, strategy>这种方式，是一种筛选过程，在某些情况下实现起来未必比ifelse好吧？
  
  */
 
