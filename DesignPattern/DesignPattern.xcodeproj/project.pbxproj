@@ -55,11 +55,18 @@
 		1453115820FF820800064363 /* CommandPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandPattern.swift; sourceTree = "<group>"; };
 		1453115E21040B3300064363 /* ChainOfResponsibilityPattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainOfResponsibilityPattern.swift; sourceTree = "<group>"; };
 		145311612106256100064363 /* decoratorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = decoratorPattern.swift; sourceTree = "<group>"; };
+		146337C723AA86DC0075AF9F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		146337C823AA89270075AF9F /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		146337C923AA8D060075AF9F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		146337CA23AA8E0F0075AF9F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		146337CB23ABCDF60075AF9F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		146337CC23B3BC030075AF9F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		146610E1210F5EEF00C29D10 /* IteratorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteratorPattern.swift; sourceTree = "<group>"; };
 		146611312110B03900C29D10 /* CompositePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositePattern.swift; sourceTree = "<group>"; };
 		146611342111FF5200C29D10 /* ObserverPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverPattern.swift; sourceTree = "<group>"; };
 		1466115F21135ED200C29D10 /* FacadePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadePattern.swift; sourceTree = "<group>"; };
 		148542B12189DDC4008D412C /* MediatorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediatorPattern.swift; sourceTree = "<group>"; };
+		148CE5BD2384C7030050CC08 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		14ADEEC2218DC1D100206DC0 /* TemplateMethodPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateMethodPattern.swift; sourceTree = "<group>"; };
 		14ADEEC5218E933600206DC0 /* BuilderPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderPattern.swift; sourceTree = "<group>"; };
 		14CE257E2125C5B800828A45 /* StatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePattern.swift; sourceTree = "<group>"; };
@@ -102,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				143EDA8C2108BA660039F48B /* StrategyPattern.swift */,
+				146337C823AA89270075AF9F /* readme.md */,
 			);
 			path = "Strategy Pattern";
 			sourceTree = "<group>";
@@ -163,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				1453115820FF820800064363 /* CommandPattern.swift */,
+				146337CC23B3BC030075AF9F /* README.md */,
 			);
 			path = "Command Pattern";
 			sourceTree = "<group>";
@@ -203,6 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				146611342111FF5200C29D10 /* ObserverPattern.swift */,
+				146337C923AA8D060075AF9F /* README.md */,
 			);
 			path = "Observer Pattern";
 			sourceTree = "<group>";
@@ -219,6 +229,7 @@
 			isa = PBXGroup;
 			children = (
 				148542B12189DDC4008D412C /* MediatorPattern.swift */,
+				146337CB23ABCDF60075AF9F /* README.md */,
 			);
 			path = MediatorPattern;
 			sourceTree = "<group>";
@@ -227,6 +238,7 @@
 			isa = PBXGroup;
 			children = (
 				14ADEEC2218DC1D100206DC0 /* TemplateMethodPattern.swift */,
+				146337C723AA86DC0075AF9F /* README.md */,
 			);
 			path = TemplateMethodPattern;
 			sourceTree = "<group>";
@@ -244,6 +256,7 @@
 			isa = PBXGroup;
 			children = (
 				14CE257E2125C5B800828A45 /* StatePattern.swift */,
+				148CE5BD2384C7030050CC08 /* README.md */,
 			);
 			path = "State Pattern";
 			sourceTree = "<group>";
@@ -284,6 +297,7 @@
 			isa = PBXGroup;
 			children = (
 				14F593A621174441008EF7CA /* VisitorPattern.swift */,
+				146337CA23AA8E0F0075AF9F /* README.md */,
 			);
 			path = "Visiter Pattern";
 			sourceTree = "<group>";

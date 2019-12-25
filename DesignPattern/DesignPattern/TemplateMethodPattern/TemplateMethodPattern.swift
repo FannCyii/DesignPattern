@@ -10,18 +10,12 @@ import Foundation
 
 /*
  
- Template Method Pattern
- 模板方法模式
- 
- Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algrithm's structure.
- 
- 定义一个操作中的算法的框架，而将一些步骤延迟到子类中。使得子类可以不改变一个算法的结构既可以重定义该算法的某些特定步骤。
- 
+
  */
 
 
 /**
- 这个模式是我们常用的实际模式，同时定义也说的很清楚
+ 这个模式是我们常用的模式，同时定义也说的很清楚
  
  */
 
@@ -51,7 +45,7 @@ fileprivate class BaseClass{
     }
 }
 
-fileprivate class SubClass1 :BaseClass{
+fileprivate class SubClass1: BaseClass{
     override func section1() {
         print("subClass1: override section1!")
     }
@@ -61,7 +55,7 @@ fileprivate class SubClass1 :BaseClass{
     }
 }
 
-fileprivate class SubClass2 :BaseClass{
+fileprivate class SubClass2: BaseClass{
     override func section2() {
         print("subClass2: override section1!")
     }
@@ -91,7 +85,7 @@ class TemplateMethodPatternClient{
  
 优点： 封装不变，扩展可变；
       提取出公共代码，便于维护
-      行为有父类控制，子类实现，（这里父类可能有默认实现）
+      行为由父类控制，子类实现，（这里父类可能有默认实现）
 缺点：
      子类会影响父类，复杂项目中可能会导致阅读上的困难（其实我觉得还好，这个模式非常好用）
  */

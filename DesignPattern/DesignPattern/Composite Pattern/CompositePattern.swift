@@ -19,9 +19,7 @@ import Foundation
 
 //#1
 fileprivate class Component {
-    func someOperation(){
-
-    }
+    func someOperation(){}
 }
 
 //这种是透明模式 #2
@@ -29,7 +27,7 @@ fileprivate class Component {
 //    func someOperation()
 //    func add(subComponent:Component)
 //    func remove(subComponent:Component)
-//    func allSubComponents() -> Array<Component>
+//    func allSubComponents() -> Array<Component>//可以使用迭代器模式
 //}
 //
 //private extension Component {

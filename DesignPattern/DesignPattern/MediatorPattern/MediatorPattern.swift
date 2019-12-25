@@ -8,17 +8,6 @@
 
 import Foundation
 
-
-/*
- 中介者模式
- Mediator Pattern
- 
- Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it lets you vary their interaction independently.
- 
- 用一个中介对象封装一系列的对象交互，中介者使个对象不需要显示的相互作用，从而时期耦合松散，而且可以独立地改变它们之间的交互。
- 
- */
-
 /*
  场景模拟
  
@@ -28,17 +17,17 @@ import Foundation
  */
 
 
-fileprivate protocol AbstractMediator{
-    var moudel1:BusinessMoudel1?{get set}
-    var moudel2:BusinessMoudel2?{get set}
-    var moudel3:BusinessMoudel3?{get set}
+fileprivate protocol AbstractMediator {
+    var moudel1:BusinessMoudel1? { get set }
+    var moudel2:BusinessMoudel2? { get set }
+    var moudel3:BusinessMoudel3? { get set }
 
     func dosomething1();
     func dosomething2();
     func dosomething3();
 }
 
-fileprivate class ConcreteMediator:AbstractMediator{
+fileprivate class ConcreteMediator: AbstractMediator {
     var moudel1:BusinessMoudel1?
     var moudel2:BusinessMoudel2?
     var moudel3:BusinessMoudel3?
@@ -59,14 +48,14 @@ fileprivate class ConcreteMediator:AbstractMediator{
 }
 
 fileprivate protocol Moudel{
-    var mediator:AbstractMediator{get set}
+    var mediator:AbstractMediator { get set }
     init(_ mediator:AbstractMediator);
 }
 
 
-fileprivate class BusinessMoudel1:Moudel{
+fileprivate class BusinessMoudel1: Moudel {
     var mediator: AbstractMediator
-    required init(_ mediator:AbstractMediator){
+    required init(_ mediator:AbstractMediator) {
         self.mediator = mediator
         self.mediator.moudel1 = self;
     }
@@ -80,7 +69,7 @@ fileprivate class BusinessMoudel1:Moudel{
     }
 }
 
-fileprivate class BusinessMoudel2:Moudel{
+fileprivate class BusinessMoudel2: Moudel {
     var mediator:AbstractMediator
     required init(_ mediator:AbstractMediator){
         self.mediator = mediator
@@ -96,7 +85,7 @@ fileprivate class BusinessMoudel2:Moudel{
     }
 }
 
-fileprivate class BusinessMoudel3:Moudel{
+fileprivate class BusinessMoudel3: Moudel {
     var mediator:AbstractMediator
     required init(_ mediator:AbstractMediator){
         self.mediator = mediator
@@ -131,16 +120,3 @@ class MediatorPatternClient{
         moudel3.moudel3dosomething001()
     }
 }
-
-/*
- 优缺点；
- 
- 优点：类间解耦，使多个类之间的相互依赖关系，变成一对一的依赖关系
- 缺点：逻辑越复杂 中介类会越膨胀，
- 
- 在项目开发过程中 模块间解耦使用的router就可以理解为一个中介者模式，只是这个中介者的职责比较当以只用来处理界面跳转
- 
-
- MVC中的controller也可以理解为一个中介者
- 
- */
