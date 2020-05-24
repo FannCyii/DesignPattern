@@ -7,8 +7,8 @@
 
 ### 封装一些作用于某种数据结构中的元素的操作，他可以在不改变数据结构的前提下定义作用于这些元素的新的操作。
 
->  好的事例：
->  [Visitor design pattern](https://www.geeksforgeeks.org/visitor-design-pattern/)
+>  好的实例：
+>  [Visitor design pattern](https://www.geeksforgeeks.org/visitor-design-pattern/)  
 > [这里有UML](https://www.tutorialspoint.com/design_pattern/visitor_pattern.htm)
 
 visitor pattern可以很好处理数据与操作的分离，而且各个操作不会相互影响
