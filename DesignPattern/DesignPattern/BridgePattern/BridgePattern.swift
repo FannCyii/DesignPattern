@@ -14,7 +14,7 @@ import Foundation
  
  Decouple an abstraction from its implementation so that the two can vary indenpendently.
  将抽象和现实解构，使得两者可以独立变化
-
+这里的抽象和现实，不一定是接口与实现，也可以指框架代码和具体库
  */
 
 
@@ -27,7 +27,7 @@ import Foundation
  ConcreteImplementor 具体实现变化角色
  
  
- 桥梁模式的主要目的就是类减解耦，将场景系列类 Abstraction 和 系列类Implementor进行解耦，分别让它们依赖于它们各自的抽象，然后让他们的抽象处理它们之间的关联关系，只要这个两个抽象不变，它们的其他子类随意变动扩展也对现有逻辑影响不大。
+ 桥梁模式的主要目的就是类间解耦，将场景系列类 Abstraction 和 系列类Implementor进行解耦，分别让它们依赖于它们各自的抽象，然后让他们的抽象处理它们之间的关联关系，只要这个两个抽象不变，它们的其他子类随意变动扩展也对现有逻辑影响不大。
  */
 
 
